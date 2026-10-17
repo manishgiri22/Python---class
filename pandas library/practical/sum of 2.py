@@ -1,0 +1,5 @@
+cp=int(input("enter the cp "))
+sp=int(input("enter the sp"))
+# sp>cp? print(f'profit is {sp-cp}'):print(f'loss is {cp-sp}')
+res=print(f'profit amount is {sp-cp}') if(sp>cp)else print(f'loss amount is {cp-sp}')
+print(res)
